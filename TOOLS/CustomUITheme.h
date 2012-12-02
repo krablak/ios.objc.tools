@@ -42,7 +42,8 @@ typedef NS_ENUM(NSInteger, UIThemeImage) {
     UIThemeImageNavBarBg = 0,
     UIThemeImageNavBarButtonBg = 1,
 	UIThemeImageBackButton = 2,
-	UIThemeImageRefreshButton = 3
+	UIThemeImageRefreshButton = 3,
+	UIThemeImageBg = 4
 };
 
 @required
