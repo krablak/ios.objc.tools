@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "UITools.h"
+#import "UIUtil.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation UITools
+@implementation UIUtil
 
 
 +(id)loadFromNib:(NSString*) aNibName

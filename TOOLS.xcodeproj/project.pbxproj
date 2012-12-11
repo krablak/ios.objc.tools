@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A07FF07166D4DC200E8D95D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A07FF06166D4DC200E8D95D /* UIKit.framework */; };
+		9A07FF0B166E7CE200E8D95D /* NavigationControllerTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07FF0A166E7CE200E8D95D /* NavigationControllerTools.m */; };
+		9A07FF0E166E8B5900E8D95D /* NavigationControllerToolsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07FF0D166E8B5900E8D95D /* NavigationControllerToolsTest.m */; };
+		9A07FF0F166E97B400E8D95D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A07FF06166D4DC200E8D95D /* UIKit.framework */; };
+		9A07FF10166E97D500E8D95D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEDB3A2166A724A00A6FFDF /* QuartzCore.framework */; };
 		9A176ACF166A6ABA00F25CF1 /* DefaultUITheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A176ACE166A6ABA00F25CF1 /* DefaultUITheme.m */; };
 		9A5A4B61166A401F00258C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5A4B60166A401F00258C74 /* Foundation.framework */; };
 		9A5A4B66166A401F00258C74 /* TOOLS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A5A4B65166A401F00258C74 /* TOOLS.h */; };
 		9A5A4B68166A401F00258C74 /* TOOLS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A4B67166A401F00258C74 /* TOOLS.m */; };
 		9A5A4B70166A402000258C74 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5A4B6F166A402000258C74 /* SenTestingKit.framework */; };
-		9A5A4B72166A402000258C74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5A4B71166A402000258C74 /* UIKit.framework */; };
 		9A5A4B73166A402000258C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5A4B60166A401F00258C74 /* Foundation.framework */; };
 		9A5A4B76166A402000258C74 /* libTOOLS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5A4B5D166A401F00258C74 /* libTOOLS.a */; };
 		9A5A4B7C166A402000258C74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A4B7A166A402000258C74 /* InfoPlist.strings */; };
@@ -46,6 +50,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A07FF06166D4DC200E8D95D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A07FF09166E7CE200E8D95D /* NavigationControllerTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerTools.h; sourceTree = "<group>"; };
+		9A07FF0A166E7CE200E8D95D /* NavigationControllerTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerTools.m; sourceTree = "<group>"; };
+		9A07FF0C166E8B5900E8D95D /* NavigationControllerToolsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerToolsTest.h; sourceTree = "<group>"; };
+		9A07FF0D166E8B5900E8D95D /* NavigationControllerToolsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerToolsTest.m; sourceTree = "<group>"; };
 		9A176ACD166A6ABA00F25CF1 /* DefaultUITheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultUITheme.h; sourceTree = "<group>"; };
 		9A176ACE166A6ABA00F25CF1 /* DefaultUITheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultUITheme.m; sourceTree = "<group>"; };
 		9A5A4B5D166A401F00258C74 /* libTOOLS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTOOLS.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +64,6 @@
 		9A5A4B67166A401F00258C74 /* TOOLS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOOLS.m; sourceTree = "<group>"; };
 		9A5A4B6E166A402000258C74 /* TOOLSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOOLSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5A4B6F166A402000258C74 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9A5A4B71166A402000258C74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9A5A4B79166A402000258C74 /* TOOLSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TOOLSTests-Info.plist"; sourceTree = "<group>"; };
 		9A5A4B7B166A402000258C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A5A4B8A166A458000258C74 /* CustomUITheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUITheme.h; sourceTree = "<group>"; };
@@ -72,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A07FF07166D4DC200E8D95D /* UIKit.framework in Frameworks */,
 				9AEDB3A3166A724A00A6FFDF /* QuartzCore.framework in Frameworks */,
 				9A5A4B61166A401F00258C74 /* Foundation.framework in Frameworks */,
 			);
@@ -81,8 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A07FF10166E97D500E8D95D /* QuartzCore.framework in Frameworks */,
+				9A07FF0F166E97B400E8D95D /* UIKit.framework in Frameworks */,
 				9A5A4B70166A402000258C74 /* SenTestingKit.framework in Frameworks */,
-				9A5A4B72166A402000258C74 /* UIKit.framework in Frameworks */,
 				9A5A4B73166A402000258C74 /* Foundation.framework in Frameworks */,
 				9A5A4B76166A402000258C74 /* libTOOLS.a in Frameworks */,
 			);
@@ -94,6 +104,7 @@
 		9A5A4B52166A401F00258C74 = {
 			isa = PBXGroup;
 			children = (
+				9A07FF06166D4DC200E8D95D /* UIKit.framework */,
 				9AEDB3A2166A724A00A6FFDF /* QuartzCore.framework */,
 				9A5A4B62166A401F00258C74 /* TOOLS */,
 				9A5A4B77166A402000258C74 /* TOOLSTests */,
@@ -116,7 +127,6 @@
 			children = (
 				9A5A4B60166A401F00258C74 /* Foundation.framework */,
 				9A5A4B6F166A402000258C74 /* SenTestingKit.framework */,
-				9A5A4B71166A402000258C74 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				9A5A4B89166A443900258C74 /* theme */,
+				9A07FF09166E7CE200E8D95D /* NavigationControllerTools.h */,
+				9A07FF0A166E7CE200E8D95D /* NavigationControllerTools.m */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -183,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				9AEDB3AB166A9A3D00A6FFDF /* theme */,
+				9A07FF0C166E8B5900E8D95D /* NavigationControllerToolsTest.h */,
+				9A07FF0D166E8B5900E8D95D /* NavigationControllerToolsTest.m */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -305,6 +319,7 @@
 			files = (
 				9A5A4B68166A401F00258C74 /* TOOLS.m in Sources */,
 				9A176ACF166A6ABA00F25CF1 /* DefaultUITheme.m in Sources */,
+				9A07FF0B166E7CE200E8D95D /* NavigationControllerTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +329,7 @@
 			files = (
 				9A5A4B8D166A466F00258C74 /* UIThemeService.m in Sources */,
 				9AEDB3AE166A9A9700A6FFDF /* UIThemeServiceTest.m in Sources */,
+				9A07FF0E166E8B5900E8D95D /* NavigationControllerToolsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +404,7 @@
 		9A5A4B83166A402000258C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/TOOLS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TOOLS/TOOLS-Prefix.pch";
@@ -400,6 +417,7 @@
 		9A5A4B84166A402000258C74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/TOOLS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TOOLS/TOOLS-Prefix.pch";
@@ -412,10 +430,12 @@
 		9A5A4B86166A402000258C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TOOLS/TOOLS-Prefix.pch";
 				INFOPLIST_FILE = "TOOLSTests/TOOLSTests-Info.plist";
@@ -427,10 +447,12 @@
 		9A5A4B87166A402000258C74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TOOLS/TOOLS-Prefix.pch";
 				INFOPLIST_FILE = "TOOLSTests/TOOLSTests-Info.plist";
